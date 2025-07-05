@@ -20,9 +20,16 @@ Facial emotion detection system using a CNN model and OpenCV for face detection.
 
 ---
 
+## ⚙️ Notes
+
+- A time gap between training epochs is added to reduce CPU overheating due to hardware limitations on my system  
+- No impact on model logic; helps prevent forced shutdown during long training  
+
+---
+
 ## ⚙️ Usage
 
-- Train the model using the provided notebook  
+- Train the model using the provided notebook 
 - Run real-time emotion detection via webcam  
 - Press **'q'** to exit detection window  
 
